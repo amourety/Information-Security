@@ -1,0 +1,32 @@
+.tableCell {
+  border: 1px solid;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #fff7b3;
+}
+body {
+  background-color: #f9f3c2;
+  font-family: 'Courier New'
+}
+.buttonBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  padding: 10px 10px 10px 10px;
+  width: 50%;
+  background-color: #fff7b3;
+  border: 1px solid;
+}
+.header {
+  height: 100px;
+  font-size: 45px;
+  text-align: center;
+}
+.score {
+  font-weight: normal;
+}
+.table {
+  width: 50%;
+}
