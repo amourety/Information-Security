@@ -1,12 +1,15 @@
-.tableCell {
-  border: 1px solid;
-  text-align: center;
-  padding: 10px 10px 10px 10px;
-  background-color: #fff7b3;
-}
 body {
   background-color: #f9f3c2;
   font-family: 'Courier New'
+}
+.selectBox {
+  background-color: #f9f3c2;
+  width: 50%;
+  border: 1px solid;
+  border-radius: 8px;
+  font-family: 'Courier New';
+  font-size: 20px;
+  font-weight: bold;
 }
 .buttonBox {
   display: flex;
@@ -18,6 +21,7 @@ body {
   width: 50%;
   background-color: #fff7b3;
   border: 1px solid;
+  border-radius: 8px;
 }
 .button:hover {
   background-color: white;
@@ -32,4 +36,11 @@ body {
 }
 .table {
   width: 50%;
+}
+.tableCell {
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #fff7b3;
 }
