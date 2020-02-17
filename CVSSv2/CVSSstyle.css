@@ -19,6 +19,9 @@ body {
   background-color: #fff7b3;
   border: 1px solid;
 }
+.button:hover {
+  background-color: white;
+}
 .header {
   height: 100px;
   font-size: 45px;
