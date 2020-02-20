@@ -10,6 +10,13 @@
   <body>
     <div class = "header">
       Калькулятор CVSSv2
+
+      <h1 class = "score">BaseScore</h1>
+      <h1 class = "score" id = "baseScore"> ... </h1>
+      <h1 class = "score">TemporalScore</h1>
+      <h1 class = "score" id = "temporalScore"> ... </h1>
+      <h1 class = "score">EnvironmentalScore</h1>
+      <h1 class = "score" id = "environmentalScore"> ... </h1>
     </div>
 
     <table class = "table" align = "center">
@@ -75,7 +82,110 @@
       <button onclick = "counter()" class = "button" type="button" name="button">Подсчитать</button>
     </div>
     <div class="buttonBox">
-    <h1 class = "score" id = "baseScore"> ... </h1>
-      </div>
+    </div>
+
+
+    <table class = "table" align = "center">
+      <tr>
+    <td class="tableCell">
+      <p>Временные метрики</p>
+    </td>
+    <td class = "tableCell">
+      <p>Возможность использования (E) </p>
+    <select id = "select7" class="selectBox" name="">
+      <option value="ND">ND</option>
+      <option value="U">U</option>
+      <option value="N">N</option>
+      <option value="F">F</option>
+      <option value="H">H</option>
+    </select>
+    </td>
+    <td class = "tableCell">
+    <p>Уровень исправления (RL) </p>
+    <select id = "select8" class="selectBox" name="">
+      <option value="ND">ND</option>
+      <option value="OF">OF</option>
+      <option value="TF">TF</option>
+      <option value="W">W</option>
+      <option value="U">U</option>
+    </select>
+    </td>
+    <td class = "tableCell">
+    <p>Степень достоверности источника (RC)  </p>
+    <select id = "select9" class="selectBox" name="">
+      <option value="ND">ND</option>
+      <option value="UC">UC</option>
+      <option value="UR">UR</option>
+      <option value="C">C</option>
+    </select>
+    </td>
+    <td class = "tableCell">
+      <div class="buttonBox">
+      <button disabled onclick = "counter2()" class = "button2" type="button" name="button" id = "timeButton">Подсчитать</button>
+    </div>
+    </td>
+    </tr>
+    <tr>
+      <td class="tableCell">
+        <p>Контекстные метрики </p>
+      </td>
+  <td class = "tableCell"> <p> Вероятность нанесения косвенного ущерба (CDP)  </p>
+  <select id = "select10" class="selectBox" name="">
+    <option value="ND">ND</option>
+    <option value="N">N</option>
+    <option value="L">L</option>
+    <option value="LM">LM</option>
+    <option value="MH">MH</option>
+    <option value="H">H</option>
+  </select>
+  </td>
+  <td class = "tableCell">
+  <p>Плотность целей (TD)  </p>
+  <select id = "select11" class="selectBox" name="">
+    <option value="ND">ND</option>
+    <option value="N">N</option>
+    <option value="L">L</option>
+    <option value="M">M</option>
+    <option value="H">H</option>
+  </select>
+  </td>
+  <td class = "tableCell">
+  <p>Требования к конфиденциальности (CR) </p>
+  <select id = "select12" class="selectBox" name="">
+    <option value="ND">ND</option>
+    <option value="L">L</option>
+    <option value="M">M</option>
+    <option value="H">H</option>
+  </select>
+  </td>
+  <td class = "tableCell">
+      <div class="buttonBox">
+      <button disabled onclick = "counter3()" class = "button2" type="button" name="button" id = "contextButton">Подсчитать</button>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="tableCell">
+        <p>Контекстные метрики </p>
+      </td>
+    <td class = "tableCell">
+  <p> Требования к целостности (IR) </p>
+  <select id = "select13" class="selectBox" name="">
+    <option value="ND">ND</option>
+    <option value="L">L</option>
+    <option value="M">M</option>
+    <option value="H">H</option>
+  </select>
+  </td>
+  <td class = "tableCell">
+  <p>Требования к доступности (AR) </p>
+  <select id = "select14" class="selectBox" name="">
+    <option value="ND">ND</option>
+    <option value="L">L</option>
+    <option value="M">M</option>
+    <option value="H">H</option>
+  </select>
+  </td>
+  </tr>
   </body>
 </html>

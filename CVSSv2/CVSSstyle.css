@@ -23,16 +23,26 @@ body {
   border: 1px solid;
   border-radius: 8px;
 }
+.button2 {
+  padding: 10px 10px 10px 10px;
+  background-color: #fff7b3;
+  border: 1px solid;
+  border-radius: 8px;
+}
 .button:hover {
   background-color: white;
 }
+.button2:hover {
+  background-color: white;
+}
 .header {
-  height: 100px;
   font-size: 45px;
   text-align: center;
 }
 .score {
+  font-size: 14px;
   font-weight: normal;
+
 }
 .table {
   width: 50%;
