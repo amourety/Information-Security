@@ -35,6 +35,11 @@ hs_err_pid*
 .idea/**/dictionaries
 .idea/**/shelf
 
+# IntellijIdea files
+*.iml
+.idea
+out
+
 # Generated files
 .idea/**/contentModel.xml
 
