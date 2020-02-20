@@ -1,56 +1,66 @@
 body {
-  background-color: #f9f3c2;
-  font-family: 'Courier New'
+    background-color: #f9f3c2;
+    font-family: 'Courier New'
 }
+
 .selectBox {
-  background-color: #f9f3c2;
-  width: 50%;
-  border: 1px solid;
-  border-radius: 8px;
-  font-family: 'Courier New';
-  font-size: 20px;
-  font-weight: bold;
+    background-color: #f9f3c2;
+    width: 50%;
+    border: 1px solid;
+    border-radius: 8px;
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-weight: bold;
 }
+
 .buttonBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .button {
-  padding: 10px 10px 10px 10px;
-  width: 50%;
-  background-color: #fff7b3;
-  border: 1px solid;
-  border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    background-color: #fff7b3;
+    border: 1px solid;
+    border-radius: 8px;
 }
+
 .button2 {
-  padding: 10px 10px 10px 10px;
-  background-color: #fff7b3;
-  border: 1px solid;
-  border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff7b3;
+    border: 1px solid;
+    border-radius: 8px;
 }
+
 .button:hover {
-  background-color: white;
+    background-color: white;
 }
+
 .button2:hover {
-  background-color: white;
+    background-color: white;
 }
+
 .header {
-  font-size: 45px;
-  text-align: center;
+    font-size: 45px;
+    text-align: center;
 }
+
 .score {
-  font-size: 14px;
-  font-weight: normal;
+    font-size: 14px;
+    font-weight: normal;
 
 }
+
 .table {
-  width: 50%;
+    width: 50%;
 }
+
 .tableCell {
-  border: 1px solid;
-  border-radius: 8px;
-  text-align: center;
-  padding: 10px 10px 10px 10px;
-  background-color: #fff7b3;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff7b3;
 }
